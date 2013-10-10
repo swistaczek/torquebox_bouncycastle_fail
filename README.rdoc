@@ -1,28 +1,9 @@
-== README
+== Readme
+This simple applications demonstrates problem with IText (through https://github.com/swistaczek/itext-jruby) and TorqueBox.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+For code go to: app/models/sample_pdf.rb
+For web action go to: /demo/index
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Occurring error:
+    
+    java.lang.SecurityException: class "org.bouncycastle.asn1.DEREncodable"'s signer information does not match signer information of other classes in the same package
