@@ -33,6 +33,7 @@ group :doc do
 end
 
 gem "torquebox", "3.0.0"
+gem "torquebox-server"
 
 # Render Itext 
 gem "itext-jruby"

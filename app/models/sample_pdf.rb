@@ -4,10 +4,10 @@ require 'itext-jruby'
 class SamplePdf
 
   def initialize    
-    @source_pdf   = Rails.root.join('lib/cert/sample.pdf')
-    @sample_image = Rails.root.join('lib/cert/pug.jpg')
-    @cert_file    = Rails.root.join('lib/cert/ia.p12')
-    @output_pdf   = Rails.root.join('public/output.pdf')
+    @source_pdf   = Rails.root.join('lib/cert/sample.pdf').to_s
+    @sample_image = Rails.root.join('lib/cert/pug.jpg').to_s
+    @cert_file    = Rails.root.join('lib/cert/ia.p12').to_s
+    @output_pdf   = Rails.root.join('public/output.pdf').to_s
   end
 
   # Read more at https://github.com/swistaczek/itext-jruby
